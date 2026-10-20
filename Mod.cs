@@ -22,7 +22,7 @@ public class Mod(LostOnDeathConfig config) : IOnLoad
         equipment.Eyewear = false;
         equipment.TacticalVest = false;
         equipment.PocketItems = false;
-        equipment.Backpack = false;
+        equipment.Backpack = true;
         equipment.Holster = false;
         equipment.FirstPrimaryWeapon = false;
         equipment.SecondPrimaryWeapon = false;
