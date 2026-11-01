@@ -15,12 +15,12 @@ public class Mod(LostOnDeathConfig config) : IOnLoad
         var equipment = config.Equipment;
         equipment.ArmBand = false;
         equipment.Compass = false;
-        equipment.Headwear = false;
-        equipment.Earpiece = false;
-        equipment.FaceCover = false;
-        equipment.ArmorVest = false;
+        equipment.Headwear = true;
+        equipment.Earpiece = true;
+        equipment.FaceCover = true;
+        equipment.ArmorVest = true;
         equipment.Eyewear = false;
-        equipment.TacticalVest = false;
+        equipment.TacticalVest = true;
         equipment.PocketItems = false;
         equipment.Backpack = true;
         equipment.Holster = false;
